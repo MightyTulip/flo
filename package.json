@@ -1,0 +1,30 @@
+{
+  "name": "flo",
+  "version": "1.0.0",
+  "description": "Convert CSV into inserts ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MightyTulip/flo.git"
+  },
+  "author": "Eddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MightyTulip/flo/issues"
+  },
+  "homepage": "https://github.com/MightyTulip/flo#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "express": "^4.19.1",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.11.3",
+    "pg-format": "^1.0.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
